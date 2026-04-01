@@ -1,0 +1,115 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ElectroMart</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 { margin: 0; }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1510552776732-01acc1c1c5d9') center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h2 { font-size: 40px; }
+    .products {
+      padding: 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .card h3 { margin: 10px 0; }
+    .card p { color: #555; }
+    .card button {
+      background: #111;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .contact {
+      background: #222;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #111;
+      color: white;
+    }
+  </style>
+</head>
+<body><header>
+  <h1>ElectroMart</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header><section class="hero">
+  <h2>Best Electronics at Lowest Prices</h2>
+  <p>Mobiles | Laptops | Accessories</p>
+</section><section id="products" class="products">
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9">
+    <h3>Smartphone</h3>
+    <p>₹15,999</p>
+    <button>Buy Now</button>
+  </div>  <div class="card">
+    <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8">
+    <h3>Laptop</h3>
+    <p>₹45,999</p>
+    <button>Buy Now</button>
+  </div>  <div class="card">
+    <img src="https://images.unsplash.com/photo-1518444065439-e933c06ce9cd">
+    <h3>Headphones</h3>
+    <p>₹1,999</p>
+    <button>Buy Now</button>
+  </div>  <div class="card">
+    <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505">
+    <h3>Smart Watch</h3>
+    <p>₹3,499</p>
+    <button>Buy Now</button>
+  </div>
+</section><section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <p>📞 +91 9876543210</p>
+  <p>📍 Your Shop Address Here</p>
+</section><footer>
+  <p>© 2026 ElectroMart. All Rights Reserved.</p>
+</footer></body>
+</html>
